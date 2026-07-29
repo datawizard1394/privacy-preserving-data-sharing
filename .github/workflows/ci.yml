@@ -27,4 +27,5 @@ jobs:
         with:
           name: synthetic-privacy-evidence
           path: .artifacts/
+          include-hidden-files: true
           if-no-files-found: error
