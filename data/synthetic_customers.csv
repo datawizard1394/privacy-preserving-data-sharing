@@ -1,0 +1,9 @@
+customer_id,full_name,email,age,postal_code,region,annual_spend_usd,support_tier
+cus-001,Avery Demo,avery@example.invalid,27,M5V1A1,ON,500.00,standard
+cus-002,Blake Demo,blake@example.invalid,29,M4B1B3,ON,700.00,premium
+cus-003,Casey Demo,casey@example.invalid,32,L5B2C9,ON,2000.00,standard
+cus-004,Drew Demo,drew@example.invalid,35,L6H3P2,ON,3000.00,premium
+cus-005,Emery Demo,emery@example.invalid,42,V6B1A1,BC,3500.00,standard
+cus-006,Finley Demo,finley@example.invalid,47,V5K0A1,BC,4500.00,premium
+cus-007,Gray Demo,gray@example.invalid,55,H2Y1C6,QC,8000.00,standard
+cus-008,Harper Demo,harper@example.invalid,58,G1R4P5,QC,9000.00,premium
