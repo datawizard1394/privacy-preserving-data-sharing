@@ -1,0 +1,36 @@
+{
+  "name": "synthetic-research-share",
+  "version": "1.0.0",
+  "dataset": "synthetic.customer_support",
+  "synthetic": true,
+  "purpose": "Educational demonstration of policy-driven minimization.",
+  "direct_identifiers": {
+    "customer_id": "tokenize",
+    "full_name": "drop",
+    "email": "tokenize",
+    "postal_code": "drop"
+  },
+  "quasi_identifiers": [
+    "age_band",
+    "region",
+    "spend_band"
+  ],
+  "k_anonymity": {
+    "minimum_k": 2,
+    "release_gate": true
+  },
+  "differential_privacy": {
+    "query": "mean annual_spend_usd",
+    "epsilon": 1.0,
+    "lower_bound": 0,
+    "upper_bound": 10000,
+    "max_queries": 1,
+    "educational_only": true
+  },
+  "retention_days": 7,
+  "limitations": [
+    "No token vault, key lifecycle, authorization, or secure execution environment.",
+    "k-anonymity does not prevent all re-identification or attribute disclosure.",
+    "The seeded DP example is reproducible and must not be used for a real release."
+  ]
+}
